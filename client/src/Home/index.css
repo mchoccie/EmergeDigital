@@ -1,0 +1,449 @@
+.index .banner1 {
+  position: relative;
+}
+.index .banner1 img {
+  font-size: 0px;
+  vertical-align: top;
+}
+.index .banner1 .b-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.index .banner1 h1 {
+  font-size: 54px;
+  color: #fff;
+  letter-spacing: 22px;
+}
+.index .banner1 p {
+  color: #fff;
+}
+.index .banner2 {
+  position: relative;
+}
+.index .banner2 img {
+  font-size: 0px;
+  vertical-align: top;
+}
+.index .banner2 .b-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.index .banner2 p {
+  font-size: 40px;
+  color: #fff;
+  width: 60%;
+  margin: 0 auto;
+}
+.index .banner3 div {
+  display: flex;
+}
+.index .banner3 div img {
+  width: 50%;
+}
+.index .banner3 div div {
+  width: 50%;
+  font-size: 50px;
+  background: #0e2096;
+}
+.index .banner3 div div p {
+  color: #fff;
+  margin: 113px 0 10px calc(100% - 550px);
+  line-height: 100%;
+  height: auto;
+  width: 75%;
+}
+.index .banner4 {
+  position: relative;
+}
+.index .banner4 img {
+  font-size: 0px;
+  vertical-align: top;
+}
+.index .banner4 .b-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.index .banner4 p {
+  font-size: 40px;
+  color: #0c1c94;
+  width: 60%;
+  margin: 0 auto;
+}
+.index .banner5 {
+  position: relative;
+}
+.index .banner5 img {
+  font-size: 0px;
+  vertical-align: top;
+}
+.index .banner5 .b-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+}
+.index .banner5 .top {
+  margin: 180px auto 140px;
+  width: 100%;
+}
+.index .banner5 .top p:nth-child(1) {
+  color: #00eafa;
+  font-size: 48px;
+  letter-spacing: 6px;
+}
+.index .banner5 .top p:nth-child(2) {
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.index .banner5 .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.index .banner5 .content div {
+  flex: 1;
+}
+.index .banner5 .content p {
+  color: #fff;
+}
+.index .banner5 .content p:nth-child(2) {
+  font-size: 22px;
+}
+.index .banner5 .content p:nth-child(2) span {
+  margin-left: 10px;
+  color: #00eafa;
+}
+.index .banner5 .content p:nth-child(3) {
+  color: #bfbbbb;
+  width: 50%;
+  margin: 0 auto;
+  letter-spacing: 2px;
+}
+.index .banner6 {
+  position: relative;
+}
+.index .banner6 img {
+  font-size: 0px;
+  vertical-align: top;
+}
+.index .banner6 .b-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.index .banner6 .b-text p {
+  color: #0c1c94;
+  letter-spacing: 0.15em;
+  font-size: 40px;
+  width: 72%;
+  margin: 120px auto 80px;
+}
+.index .banner6 .b-text .color_11 {
+  text-align: left;
+  width: 72%;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 28px;
+  letter-spacing: 0.15em;
+}
+.index .banner7 > div {
+  display: flex;
+}
+.index .banner7 > div img {
+  width: 50%;
+}
+.index .banner7 > div div {
+  width: 50%;
+  background: #0e2096;
+}
+.index .banner7 > div div p {
+  color: #fff;
+  height: auto;
+  width: 75%;
+  margin: 60px 0 10px calc(100% - 550px);
+  font-size: 24px;
+}
+.index .banner7 > div div p:nth-child(1) {
+  font-size: 40px;
+  margin: 70px 0 10px calc(100% - 550px);
+}
+.index .banner8 {
+  position: relative;
+}
+.index .banner8 img {
+  font-size: 0px;
+  vertical-align: top;
+}
+.index .banner8 .b-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.index .banner8 p {
+  font-size: 40px;
+  color: #0c1c94;
+  width: 80%;
+  margin: 0 auto;
+}
+.index .banner9 {
+  position: relative;
+}
+.index .banner9 img {
+  font-size: 0px;
+  vertical-align: top;
+}
+.index .banner9 .b-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+}
+.index .banner9 .b-text div {
+  font-size: 40px;
+  color: #00eafa;
+  margin: 70px auto 30px;
+}
+.index .banner9 .b-text img {
+  margin: 0 auto 100px;
+}
+.index .banner9 .b-text p {
+  color: #fff;
+  width: 60%;
+  font-size: 24px;
+  margin: 0 auto;
+}
+.index .banner9 .b-text p:nth-child(3) {
+  margin-bottom: 16px;
+}
+.index .banner10 {
+  background: #0d1f96;
+  text-align: center;
+}
+.index .banner10 .b-text .title {
+  font-size: 46px;
+  font-weight: bold;
+  color: #00eafa;
+  letter-spacing: 16px;
+  width: 70%;
+  margin: 0 auto 60px;
+}
+.index .banner10 .b-text .content {
+  display: flex;
+  justify-content: center;
+}
+.index .banner10 .b-text .content div {
+  width: 186px;
+  --column-width: 186px;
+  --column-flex: 186;
+  margin: 0 14px;
+}
+.index .banner10 .b-text .content p:nth-child(1),
+.index .banner10 .b-text .content p:nth-child(2) {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  width: 80%;
+  margin: 20px auto;
+}
+.index .banner10 .b-text .content p:nth-child(3) {
+  text-align: left;
+  text-indent: 10px;
+  font-size: 15px;
+}
+.index .banner10 .b-text .content ul {
+  text-align: left;
+  font-size: 15px;
+  padding-left: 40px;
+  font-weight: 100;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.index .banner11 {
+  position: relative;
+}
+.index .banner11 img {
+  font-size: 0px;
+  vertical-align: top;
+}
+.index .banner11 .b-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.index .banner11 .b-text p {
+  color: #0c1c94;
+  letter-spacing: 0.15em;
+  font-size: 40px;
+  text-align: center;
+  margin: 60px auto 120px;
+}
+.index .banner11 .b-text .color_11 {
+  text-align: center;
+  color: #0c1c94;
+  font-size: 18px;
+  width: 75%;
+  margin: 0 auto;
+  letter-spacing: 0.13em;
+  font-family: brandon-grot-w01-light, brandon-grot-w05-light, sans-serif;
+}
+.index .banner12 {
+  background: #0e2096;
+  overflow: hidden;
+}
+.index .banner12 .one > p {
+  text-align: center;
+  color: #00eafa;
+  font-size: 40px;
+  margin: 100px 0;
+}
+.index .banner12 .one .cards {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.index .banner12 .one .cards div {
+  width: 50%;
+  text-align: center;
+}
+.index .banner12 .one .cards p:nth-child(1) {
+  font-size: 24px;
+  margin: 20px auto;
+  color: #00eafa;
+  width: 36%;
+}
+.index .banner12 .one .cards p:nth-child(2) {
+  font-size: 24px;
+  margin: 20px auto;
+  color: #fff;
+  width: 50%;
+}
+.index .banner12 .one .cards p:nth-child(5) {
+  font-size: 18px;
+  margin: 20px auto;
+  width: 72%;
+  color: #fff;
+  font-style: italic;
+  font-weight: 100;
+}
+.index .banner12 .one .cards img:nth-child(3) {
+  border-radius: 50%;
+  display: block;
+  margin: 40px auto;
+}
+.index .banner12 .one .cards img:nth-child(4) {
+  display: block;
+  margin: 20px auto;
+}
+.index .banner12 .two {
+  margin: 180px 0;
+}
+.index .banner12 .two p {
+  margin: 240px auto 40px;
+  text-align: center;
+  color: #00eafa;
+  font-size: 40px;
+  letter-spacing: 0.15em;
+}
+.index .banner12 .two input {
+  border: none;
+  outline: none;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #fff;
+  display: block;
+  background: none;
+  color: #fff;
+  font-size: 24px;
+  height: 34px;
+  line-height: 34px;
+  padding-bottom: 6px;
+}
+.index .banner12 .two button {
+  border: none;
+  outline: none;
+  width: 60%;
+  text-align: center;
+  margin: 20px auto;
+  display: block;
+  background: #00eafa;
+  color: #000;
+  font-weight: 600;
+  font-size: 22px;
+  height: 44px;
+  line-height: 44px;
+  cursor: pointer;
+}
+.index .banner12 .two button:hover {
+  border: 2px solid #00eafa;
+  background: transparent;
+  color: #00eafa;
+}
+.index .banner12 .three {
+  margin-top: 460px;
+}
+.index .banner12 .three .cs {
+  display: flex;
+  width: 56%;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.index .banner12 .three .cs p {
+  color: #fff;
+}
+.index .banner12 .three .cs p:nth-child(1) {
+  color: #09ddfa;
+  font-size: 21px;
+}
+.index .banner12 .three .cs p:nth-child(2) {
+  width: 70%;
+  font-size: 18px;
+}
+.index .banner12 .three > p {
+  margin-top: 200px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: #09ddfa;
+  font-size: 18px;
+  font-weight: 100;
+}
