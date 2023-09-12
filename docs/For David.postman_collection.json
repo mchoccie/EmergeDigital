@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "b93fde7b-0066-4594-8881-ff8443b55c7b",
+		"name": "For David",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "For David",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"leader@sam.com\",\r\n    \"password\": \"password\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:9000/api/auth/login",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Node Add User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"primaryGoal\": \"Perfectionism and Procrastination\",\r\n    \"secondaryGoal\": \"Giving and Receiving Feedback\",\r\n    \"industry\": \"Agriculture, Forestry, Fishing\",\r\n    \"gender\": \"Male\",\r\n    \"age\": \"45\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:9000/api/leader/find-coach",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"leader",
+								"find-coach"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
