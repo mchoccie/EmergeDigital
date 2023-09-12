@@ -1,0 +1,45 @@
+{
+  "name": "comp3888_t17_07_group3",
+  "version": "1.0.0",
+  "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd client && npm install --production && cd ../server && npm install --production && cd .. && python3 -m pip install --target='$(workingDirectory)/.python_packages/lib/site-packages' -r requirements.txt",
+    "dev": "concurrently \"cd client && npm start\" \"cd server && npm run dev\" ",
+    "flask": "cd flask && python3 app.py",
+    "deploy": "concurrently \"npm run deploy-node\" \"npm run deploy-flask\"",
+    "deploy-node": "bash server/deploy.sh",
+    "deploy-flask": "bash flask/deploy.sh",
+    "test-backend": "cd server && npm test",
+    "start": "cd client && npm run build && cd ../server && npm start",
+    "fast-start": "cd ./server && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/comp3888_t17_07_group3/comp3888_t17_07_group3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/comp3888_t17_07_group3/comp3888_t17_07_group3/issues"
+  },
+  "homepage": "https://bitbucket.org/comp3888_t17_07_group3/comp3888_t17_07_group3#readme",
+  "devDependencies": {
+    "concurrently": "^6.2.1"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.1.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "moongoose": "^0.0.4",
+    "socket.io": "^4.3.1",
+    "socket.io-client": "^4.3.2"
+  }
+}

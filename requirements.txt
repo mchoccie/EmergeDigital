@@ -1,0 +1,9 @@
+h5py
+numpy
+pandas
+parso
+plotly
+pymongo
+python-dotenv
+scikit-learn
+scipy
